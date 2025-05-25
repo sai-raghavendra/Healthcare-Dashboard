@@ -4,12 +4,12 @@ import { BellIcon, UserIcon } from "@heroicons/react/24/solid";
 
 const Header = () => {
   return (
-    <div className="items-center justify-between grid grid-cols-[220px_1fr_1fr] pr-1">
+    <div className="items-center justify-between grid grid-cols-[220px_2fr_2.1fr] pr-1">
       <div className="text-2xl rounded-tl-3xl p-5 bg-[#f7fbff] pr-10">
         <span className="font-bold text-cyan-400">Health</span>
         <span className="font-bold text-blue-900">care.</span>
       </div>
-      <div className="m-2 w-[95%] flex items-center bg-white rounded-lg border border-gray-200">
+      <div className="ml-5 w-[90%] flex items-center bg-white rounded-lg border border-gray-200">
         <MagnifyingGlassIcon className="h-5 w-5 text-gray-400 ml-3" />
         <input
           type="text"

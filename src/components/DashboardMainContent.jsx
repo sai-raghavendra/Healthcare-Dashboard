@@ -7,8 +7,8 @@ import ActivityChart from "./ActivityChart";
 
 const DashboardMainContent = () => {
   return (
-    <div className="grid grid-cols-[2fr_2.2fr] gap-8  rounded-3xl min-h-[90vh]">
-      <div className="flex flex-col gap-10 ">
+    <div className="grid grid-cols-[2fr_2.2fr] gap-8  rounded-3xl min-h-[80vh]">
+      <div className="flex flex-col gap-4 ml-5 ">
         <DashboardOverview />
         <ActivityChart />
       </div>

@@ -25,14 +25,20 @@ const ActivityChart = () => {
       style={{
         width: "100%",
         height: 200,
-        padding: "16px",
+        padding: "18px",
         background: "#f9fbff",
         borderRadius: "12px",
       }}
     >
       <span className="flex justify-between">
-        <h3 style={{ marginBottom: "10px", fontWeight: "bold" }}>Activity</h3>
-        <p>3 appointments on this week</p>
+        <h3
+          style={{ marginBottom: "10px", fontWeight: "bold", color: "#1e3a8a" }}
+        >
+          Activity
+        </h3>
+        <p style={{ color: "rgba(0, 0, 0, 0.5)" }}>
+          3 appointments on this week
+        </p>
       </span>
       <ResponsiveContainer width="100%" height="100%">
         <ComposedChart data={data} barGap={4}>

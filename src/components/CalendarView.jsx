@@ -17,8 +17,8 @@ const CalendarView = () => {
   const [selectedSlot, setSelectedSlot] = useState("09:00");
 
   return (
-    <div className="p-6 shadow-sm ">
-      <div className="p-4 w-full">
+    <div className="pl-6 pr-6 shadow-sm ">
+      <div className=" w-full">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-xl font-semibold text-gray-800">October 2021</h2>
           <div className="flex gap-2">
@@ -80,13 +80,13 @@ const CalendarView = () => {
         </div>
         <div className="bg-purple-100 p-4 rounded-2xl flex-[1.5]">
           <div className="flex justify-between items-center mb-2">
-            <h3 className="font-medium text-gray-800">
+            <h3 className="font-semibold text-blue-900">
               Physiotherapy Appointment
             </h3>
-            <HandThumbUpIcon className="h-6 w-6 text-purple-500" />
+            <HandThumbUpIcon className="h-6 w-6 text-yellow-200" />
           </div>
-          <p className="text-sm text-gray-600">11:00-12:00</p>
-          <p className="text-sm text-gray-700 mt-1">Dr. Kevin Jones</p>
+          <p className="text-sm text-blue-900">11:00-12:00</p>
+          <p className="text-sm text-blue-900 mt-1">Dr. Kevin Jones</p>
         </div>
       </div>
     </div>

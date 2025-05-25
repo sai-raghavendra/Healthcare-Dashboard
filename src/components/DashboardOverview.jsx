@@ -6,10 +6,10 @@ const DashboardOverview = () => {
   return (
     <div>
       <div className="flex justify-between text-blue-900">
-        <p className="font-bold text-2xl">Dashboard</p>
+        <p className="font-bold text-2xl ">Dashboard</p>
         <p className="text-xs font-medium">This Week ⌄</p>
       </div>
-      <div class="grid grid-cols-[3fr_2fr]">
+      <div class="grid grid-cols-[3fr_2fr] gap-10">
         <AnatomySection />
         <HealthStatusCards />
       </div>
